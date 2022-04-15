@@ -1,0 +1,39 @@
+ import java.util.*;
+//import java.util.Scanner;
+
+public class srthh {
+
+	public static void main(String[] args) {
+		 String s1="abc123&&ZRAB";
+		 int lo=0,num=0,sp=0,up=0;
+		 char ch[]=s1.toCharArray();
+         for(int i=0;i<ch.length;i++)
+         {
+        	 if(ch[i]>='A' && ch[i]<='Z')
+        	 {
+        		 up++;
+        	 }
+        	 if(ch[i]>='a' && ch[i]<='z')
+        	 {
+        		 lo++;
+        	 }
+        	 if(ch[i]>='0' && ch[i]<='9')
+        	 {
+        		 num++;
+        	 }
+        	 else
+        	 {
+        		 sp++;
+        	 }
+         }
+		   System.out.println(up);
+		   System.out.println(lo);
+		   System.out.println(num);
+		   System.out.println(sp);
+		   
+		}
+	
+	}
+
+			
+ 	
