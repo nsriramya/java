@@ -4,7 +4,7 @@ public class srthh {
 
 	public static void main(String[] args) {
 		int  c,r;
-		 int s1=0,s2=0;
+		int s1=0,s2=0;
 		Scanner sc=new Scanner(System.in);
 		r=sc.nextInt();
 		c=sc.nextInt();
